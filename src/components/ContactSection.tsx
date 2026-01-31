@@ -42,7 +42,7 @@ const ContactSection = () => {
               <span className="text-sm font-medium text-foreground">GitHub</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/thienkimtranhoang/"
+              href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-6 py-3 rounded-xl bg-card border border-border hover:border-primary/30 hover:bg-secondary transition-all group"
