@@ -4,35 +4,11 @@ import { ExternalLink, Github, Brain, Globe, BarChart3, Server } from "lucide-re
 const projects = [
   {
     icon: Brain,
-    title: "Sentiment Analysis Engine",
-    description: "Built an ML pipeline to classify customer reviews with 94% accuracy. Used SVM and NLP techniques to process 50k+ reviews, helping an e-commerce team prioritize product improvements.",
-    techStack: ["Python", "Scikit-learn", "NLTK", "Flask"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    icon: Globe,
-    title: "Real-time Collaboration Platform",
-    description: "Developed a full-stack web app enabling teams to collaborate on documents in real-time. Implemented WebSocket connections and optimistic UI updates for seamless user experience.",
-    techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    icon: BarChart3,
-    title: "COVID-19 Data Dashboard",
-    description: "Created an interactive dashboard tracking pandemic trends across regions. Processed large datasets and built visualizations that helped local health authorities make informed decisions.",
-    techStack: ["Python", "Pandas", "Plotly", "Dash"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    icon: Server,
-    title: "Microservices Architecture Design",
-    description: "Designed and documented a microservices architecture for a university project management system. Focused on scalability, fault tolerance, and clean API contracts.",
-    techStack: ["System Design", "Docker", "REST APIs", "Redis"],
-    github: "#",
-    demo: null,
+    title: "Orbital: Advanced Level Project",
+    description: "Developed a full-stack web application from scratch, featuring high-fidelity Figma mockups and a robust CI/CD pipeline. Integrated RESTful APIs with PostgreSQL and Docker to ensure high availability and streamlined deployment.",
+    techStack: ["React", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS", "Docker"],
+    github: "https://github.com/LeThiHongMinh/Orbital", // Replace with your actual link from your resume 
+    demo: "https://nustudyseeker.vercel.app/",
   },
 ];
 
@@ -41,7 +17,7 @@ const ProjectsSection = () => {
     <section id="projects" className="section-padding section-alt">
       <div className="container-narrow">
         <div className="text-center mb-16">
-          <span className="text-primary font-semibold text-sm tracking-wider uppercase mb-4 block">
+          <span className="text-purple-600 font-semibold text-sm tracking-wider uppercase mb-4 block">
             Projects
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground tracking-tight">
@@ -60,7 +36,7 @@ const ProjectsSection = () => {
             >
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <project.icon className="w-6 h-6 text-primary" />
+                  <project.icon className="w-6 h-6 text-purple-600" />
                 </div>
                 <div>
                   <h3 className="font-bold text-foreground text-lg">

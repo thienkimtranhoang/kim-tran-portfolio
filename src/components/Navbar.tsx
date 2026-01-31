@@ -36,7 +36,7 @@ const Navbar = () => {
             href="#"
             className="text-xl font-bold text-foreground hover:text-primary transition-colors"
           >
-            Alex Chen
+            Kim Tran
           </a>
 
           {/* Desktop Navigation */}

@@ -16,7 +16,7 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="animate-fade-up">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary text-sm font-medium text-muted-foreground mb-8">
-              <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+              <span className="w-2 h-2 bg-purple-600 rounded-full animate-pulse" />
               Open to opportunities
             </span>
           </div>
@@ -24,7 +24,7 @@ const HeroSection = () => {
           {/* Main headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-up-delay-1 tracking-tight">
             Hi, I'm{" "}
-            <span className="text-gradient">Alex Chen</span>
+            <span className="text-gradient">Kim Tran</span>
           </h1>
 
           {/* Tagline */}
@@ -34,7 +34,7 @@ const HeroSection = () => {
 
           {/* Short intro */}
           <p className="text-base md:text-lg text-muted-foreground/80 mb-10 animate-fade-up-delay-3 max-w-2xl mx-auto leading-relaxed">
-            Computer Science student passionate about machine learning, scalable systems, and turning complex ideas into impactful products. Currently exploring the intersection of AI and real-world applications.
+            Computer Engineering Student at NUS | Full-Stack Developer & UI/UX Designer Building scalable, user-centric systems with a focus on AI integration.
           </p>
 
           {/* CTA Buttons */}
@@ -50,7 +50,7 @@ const HeroSection = () => {
           {/* Social links */}
           <div className="flex justify-center gap-4 mt-10 animate-fade-up-delay-4">
             <a
-              href="https://github.com"
+              href="https://github.com/thienkimtranhoang"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 text-muted-foreground hover:text-foreground transition-all"
@@ -59,7 +59,7 @@ const HeroSection = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/thienkimtranhoang/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 text-muted-foreground hover:text-foreground transition-all"

@@ -6,7 +6,7 @@ const ContactSection = () => {
     <section id="contact" className="section-padding section-alt">
       <div className="container-narrow">
         <div className="max-w-2xl mx-auto text-center">
-          <span className="text-primary font-semibold text-sm tracking-wider uppercase mb-4 block">
+          <span className="text-purple-600 font-semibold text-sm tracking-wider uppercase mb-4 block">
             Contact
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground tracking-tight mb-6">
@@ -33,7 +33,7 @@ const ContactSection = () => {
               <span className="text-sm font-medium text-foreground">Email</span>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/thienkimtranhoang"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-6 py-3 rounded-xl bg-card border border-border hover:border-primary/30 hover:bg-secondary transition-all group"
