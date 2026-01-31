@@ -1,8 +1,31 @@
 import { Briefcase, Award, Users, GraduationCap, Globe, Layout, Code } from "lucide-react";
+import nusit from "../assets/nusit.jpg"
+import nus from "../assets/nus.jpg"
+import aunty from "../assets/aunty.jpg"
+import wit from "../assets/wit.jpg"
+import fin from "../assets/nusfin.jpg"
+const NusITIcon = () => (
+  <img src={nusit} alt="NUS IT" className="w-10 h-10" />
+);
 
+const NUS = () => (
+  <img src={nus} alt= "NUS" className="w-10 h-10" />
+)
+
+const AUNTY = () => (
+  <img src={aunty} alt= "auntysg" className="w-10 h-10"/>
+)
+
+const WIT = () => (
+  <img src={wit} alt= "wit" className="w-10 h-10"/>
+)
+
+const FIN = () => (
+  <img src={fin} alt= "fin" className="w-10 h-10"/>
+)
 const experiences = [
   {
-    icon: Briefcase,
+    icon: NusITIcon,
     type: "Internship",
     title: "Full-stack Development Intern",
     organization: "NUS IT-AI-Know Project",
@@ -18,7 +41,7 @@ const experiences = [
     highlights: ["React & FastAPI", "Azure DevOps", "API Automation"],
   },
   {
-    icon: Code,
+    icon: NUS,
     type: "Teaching",
     title: "Adviser - Teaching Assistant",
     organization: "Orbital (NUS Independent Software Project)",
@@ -27,7 +50,7 @@ const experiences = [
     highlights: ["Technical Mentorship", "Software Lifecycle", "UI/UX Guidance"],
   },
   {
-    icon: Globe,
+    icon: AUNTY,
     type: "Internship",
     title: "Web App Development - UI/UX Intern",
     organization: "Aunty SG PTE LTD",
@@ -36,7 +59,7 @@ const experiences = [
     highlights: ["Responsive Design", "SEO Optimization", "User Acceptance Testing"],
   },
   {
-    icon: Users,
+    icon: WIT,
     type: "Leadership",
     title: "External Relations Lead - EXCO",
     organization: "Women in Tech @ NUS Computing",
@@ -45,7 +68,7 @@ const experiences = [
     highlights: ["Team Leadership", "Strategic Outreach", "Event Management"],
   },
   {
-    icon: Layout,
+    icon: FIN,
     type: "Design",
     title: "UI/UX Designer",
     organization: "NUS Fintech Society",
