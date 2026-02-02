@@ -17,7 +17,7 @@ const ContactSection = () => {
           </p>
 
           <Button variant="hero" size="lg" asChild>
-            <a href="mailto:alex.chen@email.com">
+            <a href="mailto:tranhoang.thienkim.tk@email.com">
               <Mail size={20} />
               Say Hello
               <ArrowRight size={16} />
@@ -26,7 +26,7 @@ const ContactSection = () => {
 
           <div className="flex justify-center gap-4 mt-10">
             <a
-              href="mailto:alex.chen@email.com"
+              href="mailto:tranhoang.thienkim.tk@email.com"
               className="flex items-center gap-3 px-6 py-3 rounded-xl bg-card border border-border hover:border-primary/30 hover:bg-secondary transition-all group"
             >
               <Mail className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
