@@ -22,7 +22,7 @@ const SkillsSection = () => {
     <section id="skills" className="section-padding">
       <div className="container-narrow">
         <div className="text-center mb-16">
-          <span className="text-primary font-semibold text-sm tracking-wider uppercase mb-4 block">
+          <span className="text-purple-600 font-semibold text-sm tracking-wider uppercase mb-4 block">
             Skills
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground tracking-tight">
