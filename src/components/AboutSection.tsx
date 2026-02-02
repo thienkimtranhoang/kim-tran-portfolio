@@ -41,10 +41,10 @@ const AboutSection = () => {
                 I am a Computer Engineering student at the National University of Singapore, driven by a fascination for how technology can solve meaningful problems. My journey has evolved from mastering core Data Structures and Algorithms to engineering high-availability platforms that serve over 10,000 users.
               </p>
               <p>
-                What drives me is the intersection of AI and real-world impact. I thrive on taking complex technical challenges and breaking them down into scalable, high-performance solutions. Whether I am developing production-ready APIs with FastAPI, automating CI/CD pipelines to ensure a 2% rollback rate, or designing intuitive interfaces in Figma, I am always focused on delivering an impactful outcome.
+                What drives me is the intersection of AI and real-world impact. I thrive on taking complex technical challenges and breaking them down into scalable, high-performance solutions. Whether I am developing production-ready APIs with FastAPI, automating CI/CD pipelines, or designing intuitive interfaces in Figma, I am always focused on delivering an impactful outcome.
               </p>
               <p>
-                Beyond coding, I am a firm believer in continuous learning and community growth. I have mentored 14 software development teams through the full development lifecycle and led outreach initiatives as the External Relations Lead for Women in Tech @ NUS Computing to promote career development in the field. The tech world moves fast, and I am committed to keeping pace—and helping others do the same.
+                Beyond coding, I am a firm believer in continuous learning and community growth. I have mentored software development teams through the full development lifecycle and led outreach initiatives as the External Relations Lead for Women in Tech @ NUS Computing to promote career development in the field. The tech world moves fast, and I am committed to keeping pace—and helping others do the same.
               </p>
             </div>
           </div>
